@@ -6,6 +6,7 @@ Regarding the repid convergence of Discriminator, we optimized loss function and
 
 ## Dataset
 The training dataset we used is from Xin Chen and Gang Liu's work (https://github.com/TachibanaYoshino/AnimeGAN/releases/tag/dataset-1). Here we focused on the Shinkai style and only trained it on this datasets. In addition, if you want to try it on other anime styles, we left a program (cut_video.py) to craete training dataset from anime videos.
+Additionally, the pre=trained vgg19 weight file can be downloaded at https://download.pytorch.org/models/vgg19-dcbb9e9d.pth.
 
 ## Contact
 Here we shows some contact results. 
